@@ -1,0 +1,26 @@
+{
+    "best_model": "MobileNetV2",
+    "evaluation_date": "2026-01-09T08:31:22",
+    "training_epochs": 20,
+    "test_samples": 383,
+    "metrics": {
+        "accuracy": 0.770235002040863,
+        "precision": 0.8005697727203369,
+        "recall": 0.7336814403533936,
+        "f1_score": 0.7656675503304545
+    },
+    "configuration": {
+        "class_names": [
+            "cardboard",
+            "glass",
+            "metal",
+            "paper",
+            "plastic",
+            "trash"
+        ],
+        "num_classes": 6,
+        "image_height": 224,
+        "image_width": 224,
+        "batch_size": 32
+    }
+}
